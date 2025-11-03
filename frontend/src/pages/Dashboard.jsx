@@ -55,10 +55,9 @@ export default function Dashboard() {
       <div className="space-y-6">
         {/* Welcome Section */}
         <div className="card bg-gradient-to-r from-primary-600 to-primary-700 dark:from-primary-700 dark:to-primary-800 text-white">
-          <h2 className="text-3xl font-bold mb-2">{t('welcomeBack')}</h2>
-          <p className="text-primary-100 dark:text-primary-200">
-            {t('everyActionCounts')}
-          </p>
+          <h2 className="text-3xl font-bold">
+            "Don't work for money, make money work for you"
+          </h2>
         </div>
 
         {/* Stats Grid */}
